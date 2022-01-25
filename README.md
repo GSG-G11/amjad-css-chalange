@@ -1,5 +1,5 @@
 # css-animation-challenge
-
+live-preview: https://gsg-g11.github.io/css-chalange/
 ## clone repo and start write your css.
 
 html is ready, good luck :)
