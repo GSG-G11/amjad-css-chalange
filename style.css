@@ -23,13 +23,14 @@
   width: 100vw;
   flex: 1;
   transition: 1s;
+  cursor: pointer;
+  transform: translateY(-100%);
+  animation: dropDown 1s calc(var(--i) * 0.4s) ease-in-out forwards;
 }
 
 .slid img {
   height: 100%;
-  transition: 1s 0.4s;
-  transform: translateY(-100%);
-  animation: dropDown 1s calc(var(--i) * 0.4s) ease-in-out forwards;
+  transition: 1s 0.1s;
 }
 
 .slid .title {
@@ -47,7 +48,7 @@
 }
 
 .slid:hover img {
-  transform: scale(1.3) skew(3deg);
+  transform: scale(1.3) rotate(7deg);
   filter: brightness(70%);
 }
 
